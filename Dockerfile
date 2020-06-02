@@ -4,6 +4,8 @@ RUN wget -O activemq.tar.gz http://archive.apache.org/dist/activemq/5.15.12/apac
 
 RUN tar -xzf activemq.tar.gz 
 
-EXPOSE 8161
+EXPOSE 8161 8161
+
+USER 1001
 
 CMD ["apache-activemq-5.15.12/bin/activemq", "console"]
