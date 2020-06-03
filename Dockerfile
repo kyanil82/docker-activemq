@@ -10,4 +10,3 @@ EXPOSE 8161 8161
 
 USER 1001
 
-CMD ["apache-activemq-5.15.12/bin/activemq", "console"]
