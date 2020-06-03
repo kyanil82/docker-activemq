@@ -6,4 +6,4 @@ EXPOSE 8161 8161
 
 USER 1001
 
-sudo CMD ["apache-activemq-5.15.12/bin/activemq", "console"]
+CMD ["sudo apache-activemq-5.15.12/bin/activemq", "console"]
